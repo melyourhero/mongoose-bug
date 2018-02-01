@@ -1,0 +1,6 @@
+.idea
+node_modules
+.npm
+package-lock.json
+.node_repl_history
+.DS_Store
