@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const testSchema = mongoose.Schema({
+const gizmoSchema = mongoose.Schema({
   letters: [
     {
       type: String,
@@ -13,6 +13,6 @@ const testSchema = mongoose.Schema({
   ],
 });
 
-const Test = mongoose.model('Test', testSchema);
+const Gizmo = mongoose.model('Gizmo', gizmoSchema);
 
-module.exports = Test;
+module.exports = Gizmo;

@@ -2,16 +2,15 @@
   "name": "mongoose-bug",
   "version": "1.0.0",
   "description": "Simple representation of mongoose bug with test playground",
-  "main": "main.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha --opts ./test/opts/options.opts -- ./test/**/*.spec.js"
+    "test": "NODE_ENV=test mocha -r ./test/setup.js -- ./test/**/*.spec.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "4.1.2",
     "mocha": "5.0.0",
-    "mongoose": "5.0.3",
-    "superagent": "3.8.2"
+    "mongodb": "3.0.2",
+    "mongoose": "5.0.3"
   }
 }
