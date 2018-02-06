@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple representation of mongoose bug with test playground",
   "scripts": {
-    "test": "NODE_ENV=test mocha -r ./test/setup.js -- ./test/**/*.spec.js"
+    "test": "NODE_ENV=test mocha -- ./test/**/*.spec.js"
   },
   "author": "",
   "license": "ISC",
